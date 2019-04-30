@@ -1,0 +1,29 @@
+{
+  "name": "libertyware",
+  "version": "0.0.1",
+  "description": "mono repository for libertyware packages",
+  "private": true,
+  "author": "Libertyware Limited",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/libertyware/tbc.git"
+  },
+  "scripts": {
+    "release": "standard-version",
+    "commit": "commit"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "@commitlint/prompt-cli": "^7.5.0",
+    "husky": "^2.1.0",
+    "standard-version": "^5.0.2",
+    "typescript": "^3.4.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

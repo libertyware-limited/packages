@@ -1,0 +1,13 @@
+# source
+**/*.ts
+*.ts
+
+# definitions
+!**/*.d.ts
+!*.d.ts
+
+# configuration
+yarn.lock
+tslint.json
+tsconfig.json
+.prettierrc
