@@ -1,6 +1,6 @@
 {
   "name": "libertyware",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "mono repository for libertyware packages",
   "private": true,
   "author": "Libertyware Limited",
